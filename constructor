@@ -1,0 +1,22 @@
+//constructor function
+class person {
+    constructor(name, age, city, msg, greet) {
+        this.name = name,
+            this.age = age,
+            this.city = city,
+            this.msg = msg,
+            this.greet = function () {
+                return ("Hello");
+            };
+    }
+}
+//create objects
+const person1=new person ("jyothi",23,"hyd india","Hello");
+const person2=new person("chancy",26,"hyd","india");
+const person3=new person ("minni",24,"hyd","india");
+person2.greet=function(){
+    return("hi")
+}
+//access properties
+console.log(person1.name,person1.age,person1.city,person1.greet());
+console.log(person2.name,person1.age,person2.city,person2.greet());

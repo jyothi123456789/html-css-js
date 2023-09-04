@@ -1,0 +1,37 @@
+let x = 40 ;
+let y = 50;
+if(x==y)
+{
+    console.log("x is equal to y")
+
+}
+else 
+{
+    console.log("x is not equal to y")
+
+}
+let a= 30;
+let b = 50;
+if(a!=b)
+{
+    console.log("a is not equal to n")
+}
+else
+{
+    console.log("a is equal to b")
+}
+
+//default variable
+
+n=0
+if(n<0){
+    console.log(n,"is negative")
+}
+else if(n>0)
+{
+    console.log(n,"is positive")
+}
+else
+{
+    console.log(n,"is zero")
+}
