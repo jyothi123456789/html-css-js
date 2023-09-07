@@ -1,0 +1,20 @@
+//object methods
+const person = {
+    name:'sam',
+    age:30,
+    //using function as a value
+    greet : function(){console.log('hello')}
+
+}
+
+person.greet();// hello
+console.log(person.name,person.age);
+
+
+let number = '23.32';
+let result = parseFlot(number);
+let result1= parseInt(number);
+
+console.log(result); // 23
+
+

@@ -1,0 +1,9 @@
+
+const person={
+    name:"jyothi",
+    age:25,
+    id:1234
+};
+
+// accessing property
+console.log(person['name'],person['age'],person['id']);
